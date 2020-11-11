@@ -28,7 +28,6 @@ import Dashboard from 'views/Dashboard'
 import Governance from 'views/Governance'
 
 import styled from 'styled-components'
-import Addresses from 'views/Addresses'
 
 const App: React.FC = () => {
   const [mobileMenu, setMobileMenu] = useState(false)
@@ -53,7 +52,7 @@ const App: React.FC = () => {
           <Route exact path="/farm">
             <Farm />
           </Route>
-          <Route path="/faq">
+          {/* <Route path="/faq">
             <FAQ />
           </Route>
           <Route exact path="/migrate">
@@ -64,10 +63,7 @@ const App: React.FC = () => {
           </Route>
           <Route exact path="/governance">
             <Governance />
-          </Route>
-          <Route exact path="/addresses">
-            <Addresses />
-          </Route>
+          </Route> */}
           <StyledLink href="https://yam.gitbook.io/yam/" target="_blank">Docs</StyledLink>
         </Switch>
       </Providers>
@@ -93,7 +89,8 @@ const Providers: React.FC = ({ children }) => {
       <UseWalletProvider
         chainId={1}
         connectors={{
-          walletconnect: { rpcUrl: 'https://mainnet.eth.aragon.network/' },
+          injected: { rpcUrl: 'https://eth-mainnet.gateway.pokt.network/v1/5f3453978e354ab992c4da79' },
+          walletconnect: { rpcUrl: 'https://315135.eth.rpc.rivet.cloud/' },
         }}
       >
         <YamProvider>

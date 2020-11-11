@@ -5,7 +5,6 @@ import styled from 'styled-components'
 const Nav: React.FC = () => {
   return (
     <StyledNav>
-      <StyledRouterLink exact to="/addresses">Addresses</StyledRouterLink>
       <StyledLink href="https://github.com/yam-finance/yam-www" target="_blank">Github</StyledLink>
       <StyledLink href="https://twitter.com/YamFinance" target="_blank">Twitter</StyledLink>
       <StyledLink href="https://discord.gg/nKKhBbk" target="_blank">Discord</StyledLink>

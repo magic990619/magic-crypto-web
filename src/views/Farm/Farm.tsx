@@ -63,13 +63,13 @@ const Farm: React.FC = () => {
   return (
     <Page>
       <PageHeader
-        icon="🌾🍠"
-        subtitle="Stake YAM/ETH LP tokens and grow YAMs"
-        title="Farm"
+        icon="🍠"
+        subtitle="Temporary farm if you want to remove stake"
+        title="Temporary YAM/ETH Farm"
       />
       <Container>
-        <HarvestLPsNoticeYAMYUSD />
-        <ResumedLPsNotice />
+        {/* <HarvestLPsNoticeYAMYUSD /> */}
+        {/* <ResumedLPsNotice /> */}
         {/* <PausedLPsNotice /> */}
         <Split>
           <StakeCard />
@@ -79,23 +79,6 @@ const Farm: React.FC = () => {
         <Box row justifyContent="center">
           {RedeemButton}
         </Box>
-        <Spacer size="lg" />
-        <Separator />
-        <Spacer size="lg" />
-        <Split>
-          <Button
-            full
-            text="Addresses"
-            to="/addresses"
-            variant="secondary"
-          />
-          <Button
-            full
-            text="Get YAM/ETH LP tokens"
-            href="https://exchange.sushiswapclassic.org/#/add/0x0aacfbec6a24756c20d41914f2caba817c0d8521/ETH"
-            variant="tertiary"
-          />
-        </Split>
       </Container>
     </Page>
   )
