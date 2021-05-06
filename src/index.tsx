@@ -1,3 +1,9 @@
+//
+//
+// Built with React Using Hooks, Context, ...
+// Author: Magic Dev
+
+
 import React from "react";
 import ReactDOM from "react-dom";
 import 'semantic-ui-css/semantic.min.css';
