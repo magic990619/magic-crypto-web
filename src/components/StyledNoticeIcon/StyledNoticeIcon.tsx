@@ -1,3 +1,8 @@
+//
+//
+// Built with React Using Hooks, Context, ...
+// Author: Magic Dev
+
 import React from "react";
 import styled from "styled-components";
 
