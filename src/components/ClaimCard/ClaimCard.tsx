@@ -1,3 +1,8 @@
+//
+//
+// Built with React Using Hooks, Context, ...
+// Author: Magic Dev
+
 import React, { useMemo } from "react";
 
 import numeral from "numeral";
