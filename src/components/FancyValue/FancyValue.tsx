@@ -1,3 +1,8 @@
+//
+//
+// Built with React Using Hooks, Context, ...
+// Author: Magic Dev
+
 import React, { useMemo } from "react";
 import { Box, Spacer, useTheme } from "react-neu";
 import styled from "styled-components";
