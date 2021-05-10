@@ -1,3 +1,8 @@
+//
+//
+//
+// Author: Magic Dev
+
 import React, { useEffect } from "react";
 
 import { Emoji, Switch, SwitchButton, useTheme } from "react-neu";
