@@ -1,3 +1,8 @@
+//
+//
+//
+// Author: Magic Dev
+
 import { createContext } from "react";
 
 import { ContextValues } from "./types";
